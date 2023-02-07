@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 @Component
 public class SsconvertCliRunner implements CommandLineRunner {
 
-  String locale = "cs_CZ";
+  String locale = "sl_SI";
 
   @Override
   public void run(String... args) throws Exception {
@@ -29,8 +29,8 @@ public class SsconvertCliRunner implements CommandLineRunner {
 //    String sqlName = "Returned Portuguese(Brazil) translations required 7 11 22.sql";
 //    String excelName = "Returned Spanish(Mexico) translations required 7 11 22.xlsx";
 //    String sqlName = "Returned Spanish(Mexico) translations required 7 11 22.sql";
-    String excelName = "Czech translations required 7 7 22 Complete.xlsx";
-    String sqlName = "Czech translations required 7 7 22 Complete.sql";
+    String excelName = "Slovenian translations required 7 7 22.xlsx";
+    String sqlName = "Slovenian translations required 7 7 22.sql";
 
     Iterable<Map<String, Object>> rows =
         new SsSequenceDs(
